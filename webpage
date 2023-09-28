@@ -36,7 +36,8 @@
             const formData = new FormData();
             formData.append('body', file);
 
-            fetch('YOUR_LAMBDA_API_URL', {
+            // Replace 'YOUR_LAMBDA_API_URL' with your actual API Gateway URL
+            fetch('https://3xcys7zc1m.execute-api.ap-south-1.amazonaws.com/prod/convertFileToPdf', {
                 method: 'POST',
                 body: formData
             })
