@@ -1,4 +1,0 @@
-appscript==1.2.2
-docx2pdf==0.1.8
-lxml==4.9.3
-tqdm==4.66.1
