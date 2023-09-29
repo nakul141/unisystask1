@@ -1,4 +1,4 @@
-# lambda base image for Docker from AWS
+# lambda base image for Docker from AWS 
 FROM public.ecr.aws/lambda/python:latest
 # copy all code and lambda handler
 RUN yum -y install curl wget tar gzip zlib \
